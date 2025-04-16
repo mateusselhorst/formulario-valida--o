@@ -1,7 +1,7 @@
 .box{
     font-weight: bold;
     border-radius: 20px;
-    background-color: #5254c9;
+    background-color: #03043a;
     padding: 25px;
     align-items: center;
     justify-content: center;
@@ -9,6 +9,6 @@
     margin-right: 400px;
     margin-top: 20px;
     margin-bottom: 20px;
-    border: solid rgb(255, 0, 0);
+    border: solid rgb(54, 9, 255);
     color: white;
     }
