@@ -15,17 +15,53 @@
     <form id="form">
         <main class="box">
             <p>Nome</p>
-            <input type="text" id="nome" placeholder="Digite o seu nome" required>
+            <input type="text" id="nome" required>
             <p>Email</p>
-            <input type="email" id="email" placeholder="Digite o seu email" required>
+            <input type="email" id="email" required>
             <br><br>
             <label for="telefone">Telefone</label>
             <br>
             <input type="tel" id="telefone" pattern="[0-9]{11}" required placeholder="(xx) xxxxx-xxxx">
+            <p>Você tem alguma profissão?</p>
+            <input type="radio" id="escola1" name="escola" value="publica" required>
+              <label for="publica">Sim</label><br>
+              <input type="radio" id="escola2" name="escola" value="particular" required>
+              <label for="particular">Não</label><br>
+            <p>Você mora sozinho?</p>
+            <input type="radio" id="escola1" name="escola" value="publica" required>
+              <label for="publica">Sim</label><br>
+              <input type="radio" id="escola2" name="escola" value="particular" required>
+              <label for="particular">Não</label><br>
+            <p>Você mora em qual tipo de residência?</p>
+            <input type="radio" id="escola1" name="escola" value="publica" required>
+              <label for="publica">Casa</label><br>
+              <input type="radio" id="escola2" name="escola" value="particular" required>
+              <label for="particular">Prédio</label><br>
+            <p>Você tem filhos?</p>
+            <input type="radio" id="escola1" name="escola" value="publica" required>
+              <label for="publica">Sim</label><br>
+              <input type="radio" id="escola2" name="escola" value="particular" required>
+              <label for="particular">Não</label><br>
+            <p>Se você tem alguma profissão, qual é?</p>
+            <input type="text" id="profissao">
+            <p>Você cursa algo?</p>
+            <input type="radio" id="escola1" name="escola" value="publica" required>
+              <label for="publica">Sim</label><br>
+              <input type="radio" id="escola2" name="escola" value="particular" required>
+              <label for="particular">Não</label><br>
+            <p>Se você cursa algo, qual é o curso?</p>
+            <input type="text" id="profissao" required>
+            <p>Qual sua renda?</p>
+            <input type="radio" id="escola1" name="escola" value="publica" required>
+              <label for="publica">Baixa</label><br>
+              <input type="radio" id="escola2" name="escola" value="particular" required>
+              <label for="particular">Média</label><br>
+              <input type="radio" id="escola2" name="escola" value="particular" required>
+              <label for="particular">Alta</label><br>
             <p>Gênero</p>
             <input type="radio" name="genero" value="Masculino">Masculino
             <input type="radio" name="genero" value="Feminino">Feminino
-            <p>Naturalidade</p>
+            <p>Nacionalidade</p>
 
             <form action="form">
                 <select id="estado" name="estado" required>
@@ -72,7 +108,7 @@
             </form>
 
             <p>Digite sua senha</p>
-            <input type="password" id="senha" placeholder="Escolha a senha" required>
+            <input type="password" id="senha" required>
             <p>Confirme a senha</p>
             <input type="password" id="conf_senha" placeholder="Repita a senha" required>
             <p>Você estudou em qual escola?</p>
